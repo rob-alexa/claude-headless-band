@@ -6,8 +6,8 @@
     "name": "Dave Norris",
     "url": "https://github.com/deejay-hub"
   },
-  "homepage": "https://github.com/rob-alexa/sf-headless-band",
-  "repository": "https://github.com/rob-alexa/sf-headless-band",
+  "homepage": "https://github.com/rob-alexa/claude-headless-band",
+  "repository": "https://github.com/rob-alexa/claude-headless-band",
   "license": "MIT",
   "keywords": ["salesforce", "sfdx", "mcp", "mod"],
   "types": "./types/index.d.ts",

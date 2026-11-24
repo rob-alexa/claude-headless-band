@@ -49,28 +49,28 @@ This is a fork of [deejay-hub/sf-headless-band](https://github.com/deejay-hub/sf
 At the prompt of a terminal session:
 
 ```text
-/plugin install sf-headless-band --marketplace rob-alexa/sf-headless-band
+/plugin install sf-headless-band --marketplace rob-alexa/claude-headless-band
 ```
 
 From a shell:
 
 ```bash
-claude plugin install sf-headless-band --marketplace rob-alexa/sf-headless-band
+claude plugin install sf-headless-band --marketplace rob-alexa/claude-headless-band
 ```
 
-In the desktop app, where `/plugin` does not run: click + next to the prompt box, then Plugins, Add marketplace with `rob-alexa/sf-headless-band`, then Add plugin.
+In the desktop app, where `/plugin` does not run: click + next to the prompt box, then Plugins, Add marketplace with `rob-alexa/claude-headless-band`, then Add plugin.
 
 #### Try it from a clone
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/rob-alexa/sf-headless-band.git
+   git clone https://github.com/rob-alexa/claude-headless-band.git
    ```
 
 2. Launch Claude Code in your Salesforce project with the mod loaded:
    ```bash
    cd ~/projects/my-sfdx-project
-   claude --plugin-dir ~/path/to/sf-headless-band
+   claude --plugin-dir ~/path/to/claude-headless-band
    ```
 
 3. Type `/sf-headless-band` to show the band.
@@ -80,7 +80,7 @@ To load a clone in every session, add its folder to `CLAUDE_CODE_PLUGIN_DIRS` in
 ```json
 {
   "env": {
-    "CLAUDE_CODE_PLUGIN_DIRS": "~/path/to/sf-headless-band"
+    "CLAUDE_CODE_PLUGIN_DIRS": "~/path/to/claude-headless-band"
   }
 }
 ```
@@ -196,7 +196,7 @@ Servers that share an External Client App's consumer key reach the same org, so 
 ### Project Structure
 
 ```
-sf-headless-band/
+claude-headless-band/
 ├── .claude-plugin/
 │   ├── plugin.json              # The plugin manifest, with the four settings
 │   └── marketplace.json         # Makes this repository a marketplace to install from
